@@ -88,3 +88,72 @@ form{
     font-family: 'jost',sans-serif;
 
 }
+
+.correo{
+    display: none;
+}
+
+
+/* Estilos para pantallas más pequeñas, como teléfonos */
+
+@media (max-width: 768px) {
+
+
+    
+.contacto{
+    
+    
+    display:flex;
+    justify-content: center;
+    height: 50%;
+    background-color: #DFDDD9;
+    width: 100%;
+    
+}
+
+.titulo-4{
+    display: flex;
+    width: 170px;
+}
+
+.container-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:30%;
+    margin: 0;
+}
+
+.correo{
+    display: flex;
+    margin-left: 38%;
+    width: 50px;
+}
+
+.redes-2{
+
+    display: flex;
+    margin-left: 5%;
+    
+    
+    
+    
+}
+
+
+
+form{display: none;}
+
+
+
+#button{
+    display: none;
+
+  
+
+}
+
+    .descripcion-3{
+        display: none;
+}
+}

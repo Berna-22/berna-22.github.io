@@ -4,7 +4,7 @@
     display: flex;
     justify-content:space-between ;
     align-items: center;
-    height: 80vh;
+    height: 100%vh;
     background: #DFDDD9;
     
 }
@@ -83,4 +83,84 @@
     display: flex;
     margin-left: 10px;
     margin-top: 20px;
+}
+
+.mobile{
+    display: none;
+}
+
+
+
+
+
+/* Estilos para pantallas más pequeñas, como teléfonos */
+
+@media (max-width: 768px) {
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 200px;
+        height: 150vh;
+        background: #DFDDD9;
+        
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        height:auto ;
+        width: 300px;
+        
+    }
+    
+
+    .sobre-mi{
+        display: flex;
+        justify-content: center;
+        font-family: 'jost',sans-serif;
+        font-size: 50px;
+        color: #0A2033;
+        margin-top: 60px;
+        font-weight: 600;
+        margin-right: 50px;
+    
+    }
+
+    .descripcion{
+        font-family: 'jost',sans-serif;
+        font-size: 16px;
+        width: auto;
+        height: 120px;
+        font-weight: 400;
+        
+        
+        
+    }
+
+    .mobile{
+        display: flex;
+    }
+
+    .escritorio{
+        display: none;
+    }
+    
+    .me{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height:700px ;
+        width: 100vw;
+        margin-left:380px ;
+        background-color: #F1F2F2;
+    
+    }
+
+
+
+
+
 }
